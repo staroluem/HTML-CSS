@@ -1,0 +1,75 @@
+//html
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" initial-scale="1.0">
+        <title>form</title>
+        <link rel="stylesheet" href="formStyle.css">
+        
+
+    </head>
+    <body>
+        <div class="form">
+            <h1>Registration form</h1>
+            <form id="Registration form"></form><br></br>
+            <table>
+            Name:   <input type="text" id="Name"><br></br>
+            Email:  <input type="email" id="email"><br></br>
+            Address:<input type="text" id="address"><br></br>
+            Age :   <input type="text" id="age"><br></br>
+            DOB :   <input type = "Date" id="date" name="DOB"><br></br>
+            Gender: <input type="radio" id="r" name="r">Male<input type="radio" id="r" name="r">Female<br></br>
+            city:   <input type="text" id="city"><br></br>
+            state : <select name="select" id="state" >\
+
+                <option value ="       ">         </option>
+                <option value ="Arunachal">Arunachal</option>
+                <option value ="Chattisgarh">Chattisgarh</option>
+                <option value ="Goa">Goa</option>
+                <option value ="Himachal">Himachal</option>
+                <option value ="Kerala">Kerala</option>
+                <option value ="Maharashtra">Maharashtra</option>
+
+                </select><br></br>
+            Country : <select name="select" id="Country" >\
+
+                    <option value ="       ">         </option>
+                    <option value ="Algeria">Algeria</option>
+                    <option value ="Belgium">Belgium</option>
+                    <option value ="Canada">Canada</option>
+                    <option value ="Germany">Germany</option>
+                    <option value ="India">India</option>
+                    <option value ="Liberia">Liberia</option>
+                    <option value ="New Zealand">New Zealand</option>
+    
+                </select><br></br>
+                
+            </table>
+
+        </div>
+    </body>
+
+//css
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+   } 
+   body{
+      font-family:'Times New Roman', Times, serif;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: rgb(255, 218, 194);
+  
+  
+   }
+   .form{
+      background-color: rgb(255, 255, 255);
+      
+      padding: 70px;
+      border-radius: 10px;
+      box-shadow: darkgrey;
+   }
